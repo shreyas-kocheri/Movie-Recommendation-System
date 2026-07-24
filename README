@@ -1,0 +1,44 @@
+# 🎬 Movie Recommendation System
+
+A content-based movie recommendation system built using Python, Pandas, Scikit-learn, NLP, and Streamlit.
+
+## Features
+- Recommends similar movies
+- Uses cosine similarity
+- Content-based filtering
+- Interactive Streamlit interface
+
+## Tech Stack
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- NLTK
+- Streamlit
+
+## Dataset
+TMDB 5000 Movies Dataset
+
+## Installation
+
+git clone https://github.com/shreyas-kocheri/Movie-Recommendation-System.git
+
+cd Movie-Recommendation-System
+
+pip install -r requirements.txt
+
+streamlit run app.py
+
+## Project Structure
+
+app.py
+recommendationsystem.ipynb
+requirements.txt
+tmdb_5000_movies.csv
+tmdb_5000_credits.csv
+
+## Future Improvements
+- Movie posters
+- Genre filtering
+- TMDB API integration
+- Better UI
